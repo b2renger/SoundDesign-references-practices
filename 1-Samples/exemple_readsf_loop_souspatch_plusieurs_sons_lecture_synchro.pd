@@ -1,0 +1,112 @@
+#N canvas 65 87 717 686 10;
+#X obj 189 630 dac~;
+#N canvas 526 82 605 686 sampler 0;
+#X msg 30 240 1;
+#X obj 89 362 *~ 0.1;
+#X obj 30 363 *~ 0.1;
+#X obj 30 334 readsf~ 2 1e+06;
+#X obj 30 212 trigger bang bang;
+#X obj 189 351 spigot;
+#X obj 31 406 outlet~;
+#X obj 89 408 outlet~;
+#X obj 30 31 inlet;
+#X obj 76 30 inlet;
+#X obj 189 408 outlet;
+#X obj 363 79 inlet;
+#X obj 129 239 list;
+#X msg 129 284 open \$1;
+#X text 189 284 le "\$1" est remplacé par la valeur fournie en entrée
+du message;
+#X text 175 239 on stocke le nom du fichier à lire \, si on "bangue"
+l'entrée de gauche de liste l'objet sortira la chaine de caractère
+du nom.;
+#X connect 0 0 3 0;
+#X connect 1 0 7 0;
+#X connect 2 0 6 0;
+#X connect 3 0 2 0;
+#X connect 3 1 1 0;
+#X connect 3 2 5 0;
+#X connect 4 0 0 0;
+#X connect 4 1 12 0;
+#X connect 5 0 4 0;
+#X connect 5 0 10 0;
+#X connect 8 0 4 0;
+#X connect 9 0 5 1;
+#X connect 11 0 12 1;
+#X connect 12 0 13 0;
+#X connect 13 0 3 0;
+#X restore 45 219 pd sampler;
+#X obj 73 134 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 45 114 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 67 113 lire un son;
+#X text 94 135 boucler le son;
+#X msg 102 176 253648__orangefreesounds__retro-music-loop-120-bpm.wav
+;
+#X text 445 175 son à jouer;
+#X obj 272 364 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 244 347 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 301 363 246382__oceanictrancer__120-bpm-melodic-sequence.wav
+;
+#X obj 244 236 spigot;
+#X obj 277 214 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 102 153 loadbang;
+#X obj 301 338 loadbang;
+#X text 165 154 "banger" le message au chargement du patch;
+#N canvas 526 82 605 686 sampler 0;
+#X msg 30 240 1;
+#X obj 89 362 *~ 0.1;
+#X obj 30 363 *~ 0.1;
+#X obj 30 334 readsf~ 2 1e+06;
+#X obj 30 212 trigger bang bang;
+#X obj 189 351 spigot;
+#X obj 31 406 outlet~;
+#X obj 89 408 outlet~;
+#X obj 30 31 inlet;
+#X obj 76 30 inlet;
+#X obj 189 408 outlet;
+#X obj 363 79 inlet;
+#X obj 129 239 list;
+#X msg 129 284 open \$1;
+#X text 189 284 le "\$1" est remplacé par la valeur fournie en entrée
+du message;
+#X text 175 239 on stocke le nom du fichier à lire \, si on "bangue"
+l'entrée de gauche de liste l'objet sortira la chaine de caractère
+du nom.;
+#X connect 0 0 3 0;
+#X connect 1 0 7 0;
+#X connect 2 0 6 0;
+#X connect 3 0 2 0;
+#X connect 3 1 1 0;
+#X connect 3 2 5 0;
+#X connect 4 0 0 0;
+#X connect 4 1 12 0;
+#X connect 5 0 4 0;
+#X connect 5 0 10 0;
+#X connect 8 0 4 0;
+#X connect 9 0 5 1;
+#X connect 11 0 12 1;
+#X connect 12 0 13 0;
+#X connect 13 0 3 0;
+#X restore 244 393 pd sampler;
+#X text 298 215 jouer ou non le second son au point de bouclage du
+premier;
+#X connect 1 0 0 0;
+#X connect 1 1 0 1;
+#X connect 1 2 11 0;
+#X connect 2 0 1 1;
+#X connect 3 0 1 0;
+#X connect 6 0 1 2;
+#X connect 8 0 16 1;
+#X connect 9 0 16 0;
+#X connect 10 0 16 2;
+#X connect 11 0 9 0;
+#X connect 12 0 11 1;
+#X connect 13 0 6 0;
+#X connect 14 0 10 0;
+#X connect 16 0 0 0;
+#X connect 16 1 0 1;
