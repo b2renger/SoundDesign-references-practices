@@ -10,7 +10,7 @@ Les exemples sont destinés à être utilisés avec Pure-Data vanilla : http://m
 
 # Séance 1 : Des bruits aux sons concrets (1876-1956)
 
-## Ecoutes
+## Ecoutes :
 
 ### Richard Wagner - (1876 - Der Ring des Niebelungen)
 un total de 4 opéra, pour une durée totale d'environs 14h, composés sur 27 ans.
@@ -35,14 +35,16 @@ https://www.youtube.com/watch?v=N9pOq8u6-bA&index=6&list=RDVHLmitA3o6g
 ### Karlheinz Stockhausen - (1955-56 - Gesang der Junglige)
 https://www.youtube.com/watch?v=3XfeWp2y1Lk&index=7&list=RDVHLmitA3o6g
 
-## Théorie : Dossier Audition
+## Théorie : 
 
-## Pratique : Pure-Data hello world [readsf~] + loop, bangs, spigot, rjdj => [sfplay~] lecture avec vitesse variable, index de lecture manipulable.
+contenu du dossier Audition.
+
+## Pratique : 
+
+Pure-Data hello world [readsf~] + loop, bangs, spigot, rjdj => [sfplay~] lecture avec vitesse variable, index de lecture manipulable.
 
 
 # Séance 2 : Débuts de la synthèse sonore (1954-1969)
-
-## Ecoutes
 
 ## Ecoutes :
 
@@ -68,9 +70,13 @@ https://www.youtube.com/watch?v=8C7I8jjMutk
 connu principalement pour ces travaux d'enregistrements sur bandes. Notion de "soundscape" théorisée par Robert Murray Schafer qui a ensuite developpé des concepts autour de l'écologie acoustique.
 https://www.youtube.com/watch?v=aKq-LRYv1Q4
 
-## Théorie : Dossier Audionumérique
+## Théorie : 
 
-## Pratique : [osc~], [phasor~], [noise~], enveloppes, notes/vélocité formalisme midi, synthèse sonore
+contenu du dossier Audionumérique
+
+## Pratique : 
+
+[osc~], [phasor~], [noise~], enveloppes, notes/vélocité formalisme midi, synthèse sonore
 
 
 # Séance 3 : Evolution des techniques, cinéma, recherche (1970-1985)
