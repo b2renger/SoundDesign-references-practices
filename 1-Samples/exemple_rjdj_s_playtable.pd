@@ -1,0 +1,60 @@
+#N canvas 185 99 814 618 10;
+#X declare -path ../rjlib-master/rj;
+#X obj 16 51 openpanel;
+#X obj 15 126 table play-samp;
+#X msg 16 72 read -resize \$1 play-samp;
+#X obj 16 98 soundfiler;
+#X obj 16 24 bng 20 250 50 0 empty empty open-sample 0 -6 1 10 -262144
+-1 -1;
+#X obj 223 86 s RJLIB;
+#X msg 223 55 sf-samplerate 44100;
+#X text 216 31 Set soundfile samplerate globally:;
+#X msg 158 209 play-samp 0.5 2;
+#X msg 171 261 play-samp 1 1 500 250;
+#X msg 167 238 play-samp 1 1 500;
+#X msg 178 355 bang;
+#X obj 240 564 spigot;
+#X obj 295 565 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 240 592 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 177 319 play-samp 0.8 -1 8000 8000;
+#X text 237 544 last outlet: bang at end of duration;
+#X msg 122 158 play-samp;
+#X msg 142 183 play-samp 1 1 0 8000;
+#X msg 220 521 stop;
+#X text 266 524 stop playing;
+#X floatatom 270 454 5 0 0 0 - - -, f 5;
+#X msg 270 492 fade \$1 \$2;
+#X text 336 471 fade in & out time (default is 0 ms \, 2 ms);
+#X floatatom 323 453 5 0 0 0 - - -, f 5;
+#X obj 270 472 pack 0 2;
+#X text 336 110 /media/berenger/DATA/Code/Github/SoundDesign-references-practices/1-Samples
+;
+#X text 411 196 /media/berenger/DATA/Code/Github/SoundDesign-references-practices/rjlib-master/rj
+;
+#X obj 531 31 declare -path ../rjlib-master/rj;
+#X obj 122 523 s_playtable;
+#X obj 122 584 dac~;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 4 0 0 0;
+#X connect 6 0 5 0;
+#X connect 8 0 29 0;
+#X connect 9 0 29 0;
+#X connect 10 0 29 0;
+#X connect 11 0 29 0;
+#X connect 12 0 14 0;
+#X connect 12 0 29 0;
+#X connect 13 0 12 1;
+#X connect 15 0 29 0;
+#X connect 17 0 29 0;
+#X connect 18 0 29 0;
+#X connect 19 0 29 1;
+#X connect 21 0 25 0;
+#X connect 22 0 29 1;
+#X connect 24 0 25 1;
+#X connect 25 0 22 0;
+#X connect 29 0 30 0;
+#X connect 29 0 30 1;
+#X connect 29 1 12 0;
