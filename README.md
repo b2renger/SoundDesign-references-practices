@@ -7,6 +7,8 @@ http://puredata.info/
 
 Les exemples sont destinés à être utilisés avec Pure-Data vanilla : http://msp.ucsd.edu/software.html
 
+Pour une prise en main de Pure-Data en complète autonomie il est plutôt conseillé de se tourner vers ce cours : https://github.com/b2renger/Introduction_Pure_Data
+
 
 # Séance 1 : Des bruits aux sons concrets (1876-1956)
 
@@ -81,5 +83,67 @@ contenu du dossier Audionumérique
 
 # Séance 3 : Evolution des techniques, cinéma, recherche (1970-1985)
 
+## Ecoutes :
+
+### Kraftwerk (1974 - Autobahn)
+https://www.youtube.com/watch?v=e11h73WhqK4
+
+### Gérard Grisey -(1975 - Partiels)
+https://www.youtube.com/watch?v=jqzukP_BtW8
+
+### Kraftwerk (1978 - The Robots)
+https://www.youtube.com/watch?v=3HiRjblCypw
+
+## Cinéma :
+Les bruiteurs et les techniques de foley : https://www.youtube.com/playlist?list=PLenSg5mxivedEDbbW1snBgaozvRgeKoTp
+Evolution des techniques (démocratisation des enregistreurs portables) cf. documents/evolution
+
+### Ben Burt (1977 - Star Wars)
+bande annonce originale : https://www.youtube.com/watch?v=vP_1T4ilm8M
+
+### Walter Murch (1979 - Apocalypse Now)
+https://www.youtube.com/watch?v=e5L617dEXlE
+
+## Pratique : 
+
+[noise~], [lop~], [hip~], [bp~], [vcf~] ...
+
 
 # Séance 4 : Design sonore, design musical et interactions (1985-...)
+
+## Ecoutes :
+
+### Konji Kondo (1985 - Super Mario Bros)
+https://www.youtube.com/watch?v=ia8bhFoqkVE
+
+### Riojy Ikeda (2005 - Dataplex)
+https://www.youtube.com/watch?v=F5hhFMSAuf4
+http://www.ryojiikeda.com/project/supersymmetry/
+
+### Daito Manabe (2010 ? - Pub Nike)
+https://www.youtube.com/watch?v=uS1exujG3cY
+
+## Théorie : documents / jeux
+
+## Pratique : [metro], [sel], [route], créer un compteur.
+
+
+#Travail Demandé :
+
+Le but de cette initiation est de se familiariser avec Pure-Data un langage de programmation temps réel dédié au traitement du signal. Pure-Data est langage qui s'appuie sur des concepts de programmation par bloc, comme beaucoup d'outils utilisés dans le design sonore. Ce langage est très utilisé dans le domaine de la création musicale expérimentale et dans les arts numérique, mais aussi dans la recherche.
+
+Cette initiation a  pour but de vous familiariser avec les principes de la programmation visuelle par bloc, ainsi qu'à divers algorithmes de traitement du signal par le prisme de la création sonore. Nous vous demanderons de créer un automate sonore, non linéaire : cela signifie que vous devez créer une interface graphique permettant de déclencher des sons soit par séquences ordonnées (configurables ou non), soit par des procédés plus ou moins aléatoires. Se référer au exemples donnés en début de tp.
+
+Votre automate devra être correctement **documenté** (cela signifie qu'il faut utiliser des commentaires), et le code devra être ordonné. Il devra comporter les éléments techniques suivant :
+- au moins une abstraction.
+- utilisation de la fonctionnalité graph on parent.
+- un algorithme de synthèse sonore avec des paramètres modifiables en
+temps réel (am, fm, waveshaping ...).
+- le chargement et la lecture avec paramètres modifiables en temps
+réel d'un fichier audio au format wav.
+- une représentation du signal en temps réel via waveforme ou spectre.
+- un effet sonore avec des paramètres modifiables en temps réel.
+
+Le livrable est un patch pure-data, ainsi que les sons et abstractionsnécessaires à son éxécution. Il devra être présenté oralement en fin de tp à chaque encadrant séparément, puis envoyé par mail au format zip.
+
+Le zip doit être nommé comme suit Nom1-Nom2_MonSequenceur.zip, le patch principal doit porter le nom 'MonSequenceur' ('MonSequenceur'étant à remplacer par le nom que vous souhaitez).
