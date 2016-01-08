@@ -1,4 +1,5 @@
-#N canvas 165 82 763 529 10;
+#N canvas 156 97 974 529 10;
+#X declare -path ../rjlib-master/rj;
 #X obj 521 344 e_vocoder myvocoder;
 #X msg 651 322 squelch \$1;
 #X floatatom 651 298 5 0 0 0 - - -, f 5;
@@ -93,6 +94,7 @@ to other instances.;
 #X obj 521 99 loadbang;
 #X obj 586 239 adc~;
 #X obj 521 410 dac~;
+#X obj 562 17 declare -path ../rjlib-master/rj;
 #X connect 0 0 17 0;
 #X connect 0 0 17 1;
 #X connect 1 0 0 2;
