@@ -16,13 +16,13 @@ Pour une prise en main de Pure-Data en complète autonomie il est plutôt consei
 
 #### Richard Wagner - (1876 - Der Ring des Niebelungen) 
 
-à partir 1h10min40sec pour deux minutes.
+https://youtu.be/CUFWNKFajjA?t=1h10m40s
 
-https://www.youtube.com/watch?v=CUFWNKFajjA 
+jusqu'à 1h12min.
 
 #### Luigi Russolo (1913 - l'Art des bruits)
 
-https://www.youtube.com/watch 
+https://www.youtube.com/watch?v=8GpN5FHO60c
 https://www.youtube.com/watch?v=lrfCq71EfNU&list=RDVHLmitA3o6g&index=14
 
 #### Duke Ellington (1933 - Daybreak Express)
@@ -30,8 +30,6 @@ https://www.youtube.com/watch?v=TX3UBxF6LIA
 
 #### Pierre Schaeffer - (1948 - Etude aux chemins de fer)
 https://www.youtube.com/watch?v=N9pOq8u6-bA&index=6&list=RDVHLmitA3o6g
-
-https://www.youtube.com/watch?v=3XfeWp2y1Lk&index=7&list=RDVHLmitA3o6g
 
 ### Théorie : 
 
