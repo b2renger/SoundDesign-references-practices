@@ -1,0 +1,14 @@
+#N canvas 65 82 362 225 10;
+#X declare -path z_syn_abs;
+#X obj 100 33 declare -path z_syn_abs;
+#X obj -8 7 syn-rain;
+#X obj -1 103 *~;
+#X obj -1 125 dac~;
+#X obj 15 84 lop~ 10;
+#X obj 15 67 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 0 3 1;
+#X connect 4 0 2 1;
+#X connect 5 0 4 0;
