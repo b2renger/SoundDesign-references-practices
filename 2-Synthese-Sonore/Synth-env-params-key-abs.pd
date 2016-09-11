@@ -1,9 +1,0 @@
-#N canvas 544 82 480 686 10;
-#X obj 84 512 dac~;
-#X obj 167 19 key;
-#X floatatom 172 44 5 0 0 0 - - -, f 5;
-#X obj 80 183 synth_voice 5 500;
-#X connect 1 0 2 0;
-#X connect 1 0 3 0;
-#X connect 3 0 0 0;
-#X connect 3 0 0 1;
