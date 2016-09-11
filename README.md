@@ -14,16 +14,13 @@ Pour une prise en main de Pure-Data en complète autonomie il est plutôt consei
 
 ### Ecoutes :
 
-#### Richard Wagner - (1876 - Der Ring des Niebelungen)
-un total de 4 opéra, pour une durée totale d'environs 14h, composés sur 27 ans.
-L'Or du Rhin, La Walkyrie, Siegfried, Le Crépuscule des dieux.
-Utilisation de l'enclume comme instrument musical. Dans des proportions uniques (avant Auber en 1825, pour l'opéra Le Maçon), ici 18 enclumes pour l'interlude l'Or du Rhin pour évoquer l'activité des nains dans la mine. 
+#### Richard Wagner - (1876 - Der Ring des Niebelungen) 
 
-https://www.youtube.com/watch?v=CUFWNKFajjA à 1h10min40sec
+à partir 1h10min40sec pour deux minutes.
+
+https://www.youtube.com/watch?v=CUFWNKFajjA 
 
 #### Luigi Russolo (1913 - l'Art des bruits)
-Luigi Russolo écrit le 11 mars 1913 un manifeste intitulé L'Art des bruits, où il théorise notamment l'emploi du son-bruit dans le domaine musical et prévoit l'avènement d'une musique nouvelle qui trouvera son inspiration dans les nouveaux bruits produits par les machines inventées par l'homme. Ce manifeste et l'ensemble des théories développées par Russolo constituent aux yeux de certains « les bases du renouveau musical du xxe siècle ». Russolo étend la musique jusqu'à lui faire accepter tous les sons et bruits imaginables.
-Par la suite, il réalise avec Ugo Piatti des machines sonores baptisée Intonarumori (littéralement "joueur de bruits"), qui préfigurent ce que seront plus tard la musique concrète et la musique électronique.
 
 https://www.youtube.com/watch 
 https://www.youtube.com/watch?v=lrfCq71EfNU&list=RDVHLmitA3o6g&index=14
@@ -42,7 +39,7 @@ contenu du dossier Audition.
 
 ### Pratique : 
 
-Pure-Data hello world [readsf~] + loop, bangs, spigot, rjdj => [sfplay~] lecture avec vitesse variable, index de lecture manipulable.
+Pure-Data hello world : rjdj => [sfplay~] lecture avec vitesse variable, index de lecture manipulable. Utilisation de filtres et d'effets issus de rjdj.
 
 
 ## Séance 2 : Débuts de la synthèse sonore (1954-1969)
@@ -77,7 +74,7 @@ contenu du dossier Audionumérique
 
 ### Pratique : 
 
-[osc~], [phasor~], [noise~], enveloppes, notes/vélocité formalisme midi, synthèse sonore
+[osc~], [phasor~], [key], [mtof],  enveloppes, synthèse sonore additive, sous-patchs, abstractions => synthétiseurs polyphoniques de rjdj.
 
 
 ## Séance 3 : Evolution des techniques, cinéma, recherche (1970-1985)
@@ -105,7 +102,10 @@ https://www.youtube.com/watch?v=e5L617dEXlE
 
 ### Pratique : 
 
-[noise~], [lop~], [hip~], [bp~], [vcf~] ...
+Les patchs de synthèse sonore procédurale d'Andy Farnell. 
+Mise en place de la base de code du projet.
+Pd : [oscparse~], [oscformat~] ...
+Processing : OSCP5
 
 
 ## Séance 4 : Design sonore, design musical et interactions (1985-...)
@@ -128,10 +128,10 @@ documents / jeux
 
 ### Pratique :
 
- [metro], [sel], [route], créer un compteur.
+Projet.
 
 
-## Séance 5 : Pure-Data + Processing
+## Séance 5 : Projet
 
 ### Exemple :
 
@@ -139,8 +139,7 @@ https://www.youtube.com/watch?v=DRk9Wqjitk8
 
 ### Pratique : 
 
-Pd : [oscparse~], [oscformat~] ...
-Processing : OSCP5
+Projet.
 
 
 
@@ -148,18 +147,18 @@ Processing : OSCP5
 
 Le but de cette initiation est de se familiariser avec Pure-Data un langage de programmation temps réel dédié au traitement du signal. Pure-Data est langage qui s'appuie sur des concepts de programmation par bloc, comme beaucoup d'outils utilisés dans le design sonore. Ce langage est très utilisé dans le domaine de la création musicale expérimentale et dans les arts numérique, mais aussi dans la recherche.
 
-Cette initiation a  pour but de vous familiariser avec les principes de la programmation visuelle par bloc, ainsi qu'à divers algorithmes de traitement du signal par le prisme de la création sonore. Nous vous demanderons de créer un automate sonore, non linéaire : cela signifie que vous devez créer une interface graphique permettant de déclencher des sons soit par séquences ordonnées (configurables ou non), soit par des procédés plus ou moins aléatoires. Se référer au exemples donnés en début de tp.
+Cette initiation a  pour but de vous familiariser avec les principes de la programmation visuelle par bloc, ainsi qu'à divers algorithmes de traitement du signal par le prisme de la création sonore. 
+L'objectif sera de programmer la bande son d'un court film d'animation 2D en utilisant pure-data. La vidéo sera jouée dans Processing et le timestamp sera envoyé par OSC à pure-data, cette base de code sera créee en cours.
 
-Votre automate devra être correctement **documenté** (cela signifie qu'il faut utiliser des commentaires), et le code devra être ordonné. Il devra comporter les éléments techniques suivant :
-- au moins une abstraction.
-- utilisation de la fonctionnalité graph on parent.
-- un algorithme de synthèse sonore avec des paramètres modifiables en
-temps réel (am, fm, waveshaping ...).
-- le chargement et la lecture avec paramètres modifiables en temps
-réel d'un fichier audio au format wav.
-- une représentation du signal en temps réel via waveforme ou spectre.
-- un effet sonore avec des paramètres modifiables en temps réel.
+Votre projet devra être correctement **documenté** (cela signifie qu'il faut utiliser des commentaires), et le code devra être ordonné. Il devra comporter les éléments techniques suivant :
+- communication fonctionnelle entre processing et pure-data.
+- utilisation des objets [send] et [receive].
+- au moins un patch de synthèse sonore issus de la librairie d'Andy Farnell (modifié ou non).
+- au moins un effet sonore avec des paramètres qui évoluent au cours du temps.
+- le chargement et la lecture d'au moins un fichier audio au format wav.
+- l'utilisation de sous-patchs.
 
-Le livrable est un patch pure-data, ainsi que les sons et abstractionsnécessaires à son éxécution. Il devra être présenté oralement en fin de tp à chaque encadrant séparément, puis envoyé par mail au format zip.
 
-Le zip doit être nommé comme suit Nom1-Nom2_MonSequenceur.zip, le patch principal doit porter le nom 'MonSequenceur' ('MonSequenceur'étant à remplacer par le nom que vous souhaitez).
+Le livrable est un patch pure-data, ainsi que les sons et abstractions nécessaires à son éxécution.
+
+Le zip doit être nommé comme suit Nom1-Nom2_MonSequenceur.zip, le patch principal doit porter le nom 'BO.pd' 
