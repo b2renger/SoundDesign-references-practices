@@ -55,17 +55,15 @@ https://www.youtube.com/watch?v=_qi4hgT_d0o
 #### Pierre Henry - (1967 - Psyche rock)
 https://www.youtube.com/watch?v=AOqfWj0HqNE
 (cf : commentaire d'écoute)
-Ecrit en collaboration avec Michel Collombier pour le ballet Messe pour le temps présent de Maurice Béjart
-Documentaire (52min) : The Art of Sounds de Eric Darmont et Franck Mallet : https://www.youtube.com/watch?v=Zsb1w-3iFa8
+
+Pour aller plus loin, documentaire (52min) : The Art of Sounds de Eric Darmont et Franck Mallet : https://www.youtube.com/watch?v=Zsb1w-3iFa8
 
 #### Jean-Claude Risset - (1968 - Suite pour ordinateur Little Boy)
-sur l'analyse, la synthèse et la perception des sons musicaux. Il deviendra un des pionniers de l'informatique musicale, approche de la perception basée sur le timbre qui prédomine encore aujourdh'hui
 https://www.youtube.com/watch?v=8C7I8jjMutk
 
 *1969 fondation de l'IRCAM, par Pierre Boulez.*
 
 #### Luc Ferrari - (1970 - Presque rien n 1)
-connu principalement pour ces travaux d'enregistrements sur bandes. Notion de "soundscape" théorisée par Robert Murray Schafer qui a ensuite developpé des concepts autour de l'écologie acoustique.
 https://www.youtube.com/watch?v=aKq-LRYv1Q4
 
 ### Théorie : 
