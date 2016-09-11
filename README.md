@@ -161,4 +161,4 @@ Votre projet devra être correctement **documenté** (cela signifie qu'il faut u
 
 Le livrable est un patch pure-data, ainsi que les sons et abstractions nécessaires à son éxécution.
 
-Le zip doit être nommé comme suit Nom1-Nom2_MonSequenceur.zip, le patch principal doit porter le nom 'BO.pd' 
+Le zip doit être nommé comme suit Nom1-Nom2_ProjetBO.zip, le patch principal doit porter le nom 'BO.pd' 
