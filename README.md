@@ -143,18 +143,22 @@ Projet.
 
 Le but de cette initiation est de se familiariser avec Pure-Data un langage de programmation temps réel dédié au traitement du signal. Pure-Data est langage qui s'appuie sur des concepts de programmation par bloc, comme beaucoup d'outils utilisés dans le design sonore. Ce langage est très utilisé dans le domaine de la création musicale expérimentale et dans les arts numérique, mais aussi dans la recherche.
 
-Cette initiation a  pour but de vous familiariser avec les principes de la programmation visuelle par bloc, ainsi qu'à divers algorithmes de traitement du signal par le prisme de la création sonore. 
-L'objectif sera de programmer la bande son d'un court film d'animation 2D en utilisant pure-data. La vidéo sera jouée dans Processing et le timestamp sera envoyé par OSC à pure-data, cette base de code sera créee en cours.
+Cette initiation a  pour but de vous familiariser avec les principes de la programmation visuelle par bloc, ainsi qu'à divers algorithmes de traitement du signal par le prisme de la création sonore. L'objectif sera de programmer la bande son d'un court film vidéo en utilisant pure-data.
 
-Votre projet devra être correctement **documenté** (cela signifie qu'il faut utiliser des commentaires), et le code devra être ordonné. Il devra comporter les éléments techniques suivant :
-- communication fonctionnelle entre processing et pure-data.
-- utilisation des objets [send] et [receive].
+Pour cela vous devrez **analyser la naration du film** avec timestamps à l'appui : repérer les différents lieux, les noeuds de narrations, les changements de ton etc. A partir de ce découpage pour chaque partie vous devrez définir en une phrase ou un groupe de mot la **tonalité sonore** que vous voulez donner à l'extrait : dramatique, descriptive, joyeuse, onirique, contemplative ... Vous vous attacherez à définir une **ambiance sonore** de fond (qui pourra être musicale ou bruitée). Vous réaliserez une **liste** des éléments graphiques animés ou non qui peuvent amener à une sonorisation et marquerez vos choix (l'élément sera sonorisé ou non, il n'est souvent pas nécessaire de sonoriser une scène de manière trop exhaustive - il faut choisir les éléments qui sont importants pour la narration) - il est fortement recommandé de constituer un **tableau** à quatre colones pour chaque scène (timestamp, description de l'élément, sonorisé ou non, source : si fichier audio ou patch pure-data trouvé sur internet).
+
+L'évaluation comprendra deux rendus : un document au format pdf (récapitulant votre analyse du film) et un programme pure-data.
+
+D'un point de vue technique, la vidéo sera jouée dans Processing et le timestamp sera envoyé par OSC à pure-data, cette base de code sera créee en cours, lors de la séance deux ou trois.
+
+Votre code pure-data devra être correctement **documenté** (cela signifie qu'il faut utiliser des commentaires), et le code devra être ordonné. Il devra comporter les éléments techniques suivant :
+- l'utilisation de sous-patchs et abstractions.
 - au moins un patch de synthèse sonore issus de la librairie d'Andy Farnell (modifié ou non).
 - au moins un effet sonore avec des paramètres qui évoluent au cours du temps.
 - le chargement et la lecture d'au moins un fichier audio au format wav.
-- l'utilisation de sous-patchs.
 
+Le livrable "code" est un patch pure-data, ainsi que les sons et abstractions nécessaires à son éxécution.
 
-Le livrable est un patch pure-data, ainsi que les sons et abstractions nécessaires à son éxécution.
+Les éléments techniques valent deux points chacun, un patch correctement documenté vaut un point, et un patch correctement ordonné vaut aussi un point : le code pure-data est donc évalué sur dix points. L'analyse du film est évaluée sur six points. Les quatre derniers points sont attribués sur la cohérence du rendu final (notament à travers le mixage des sons entre-eux).
 
-Le zip doit être nommé comme suit Nom1-Nom2_ProjetBO.zip, le patch principal doit porter le nom 'BO.pd' 
+Le zip doit être nommé comme suit Nom1-Nom2_ProjetBO.zip, le patch principal doit porter le nom 'BO.pd' et le pdf doit être inclus dans le zip
