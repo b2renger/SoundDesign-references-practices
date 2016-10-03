@@ -1,0 +1,152 @@
+#N canvas 1 81 958 998 10;
+#N canvas 499 109 865 686 score 0;
+#X obj 471 306 sel 1 10;
+#X msg 471 331 1;
+#X msg 497 355 0;
+#X obj 52 380 s thunder-play;
+#X obj 471 388 s rain-on;
+#X obj 498 411 s rain-off;
+#X obj 52 213 r position;
+#X obj 471 212 r position;
+#X text 45 32 Cette partie du patch est le score \, vous recevez un
+timing video en secondes avec une précision de 0.1s. Vous pouvez créer
+autant d'objets [r position] que vous le souhaitez.;
+#X text 43 86 Comme vu en cours cet objet est a associé à un objet
+[sel] avec comme argument le timing auquel vous voules déclencher
+un évenement. [sel] sortira un bang que vous pourrez soit envoyer
+tel quel \, soit transformer avance de l'envoyer.;
+#X text 56 174 Exemple 1;
+#X obj 52 317 sel 5 7.2;
+#X text 137 323 à la seconde 5 et 7.2;
+#X text 49 401 on envoit un bang pour jouer un son de tonnerre;
+#X text 464 179 Exemple 2;
+#X text 544 305 aux secondes 1 et 10;
+#X text 509 333 on envoit un 1 pour activer la pluie;
+#X text 538 357 on envoit un 0 pour desactiver la pluie;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 1 0 4 0;
+#X connect 2 0 5 0;
+#X connect 6 0 11 0;
+#X connect 7 0 0 0;
+#X connect 11 0 3 0;
+#X connect 11 1 3 0;
+#X restore 28 458 pd score;
+#X floatatom 22 242 5 0 0 0 - - -, f 5;
+#X text 61 243 timing;
+#N canvas 1 89 745 506 reception-osc 0;
+#X obj 24 66 cnv 15 250 300 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 49 201 oscparse;
+#X obj 49 179 netreceive -u -b;
+#X msg 61 152 listen 0;
+#X obj 49 243 route list;
+#X obj 49 266 route pos;
+#X msg 49 124 listen 12345;
+#X obj 65 294 outlet;
+#X obj 49 80 inlet;
+#X obj 61 101 inlet;
+#X text 101 79 connect;
+#X text 109 104 disconnect;
+#X text 285 78 Cette portion correspond à la reception des messages
+envoyés par processing vous n'avez pas à la modifier;
+#X text 116 295 position;
+#X obj 49 341 s position;
+#X obj 49 318 change;
+#X obj 97 30 loadbang;
+#X connect 1 0 4 0;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;
+#X connect 4 0 5 0;
+#X connect 5 0 7 0;
+#X connect 5 0 15 0;
+#X connect 6 0 2 0;
+#X connect 8 0 6 0;
+#X connect 9 0 3 0;
+#X connect 15 0 14 0;
+#X connect 16 0 6 0;
+#X restore 22 218 pd reception-osc;
+#X obj 22 172 bng 15 250 50 0 empty empty Connect 17 7 0 10 -262144
+-1 -1;
+#X obj 124 193 bng 15 250 50 0 empty empty Disconnect 17 7 0 10 -262144
+-1 -1;
+#N canvas 608 190 946 488 audio-objects 0;
+#X obj 22 229 Nature-Thunder4;
+#X obj 22 205 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 22 176 r thunder-play;
+#X obj 529 223 Nature-Rain;
+#X obj 529 177 r rain-on;
+#X obj 559 200 r rain-off;
+#X obj 529 307 throw~ center;
+#X obj 22 287 throw~ left;
+#X obj 124 313 throw~ right;
+#X text 24 10 Ici vous devez créer tous les objects audio qui vous
+permettent de faire du son (sound effects \, samples etc.) Ces objets
+doivent recevoir une information de lecture de [pd score] et doivent
+envoyer de l'audio à la sortie principale du patch [pd audio-output]
+;
+#X text 119 287 on envoit le son au canal de gauche;
+#X text 218 314 on envoit le son au canal de droite;
+#X text 636 304 on envoit le son aux deux cannaux;
+#X connect 0 0 7 0;
+#X connect 0 1 8 0;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 3 0 6 0;
+#X connect 4 0 3 0;
+#X connect 5 0 3 0;
+#X restore 28 479 pd audio-objects;
+#N canvas 1 85 794 423 audio-output 0;
+#X obj 266 376 dac~;
+#X obj 177 90 catch~ left;
+#X obj 368 89 catch~ right;
+#X obj 266 90 catch~ center;
+#X obj 230 313 *~;
+#X obj 332 316 *~;
+#X obj 248 283 lop~ 10;
+#X obj 350 284 lop~ 10;
+#X obj 458 184 inlet;
+#X text 50 11 Cette partie du programme est a priori à ne pas modifier.
+Elle reçoit l'audio et l'achemine vers les hp avec un controle de
+volume.;
+#X connect 1 0 4 0;
+#X connect 2 0 5 0;
+#X connect 3 0 4 0;
+#X connect 3 0 5 0;
+#X connect 4 0 0 0;
+#X connect 5 0 0 1;
+#X connect 6 0 4 1;
+#X connect 7 0 5 1;
+#X connect 8 0 7 0;
+#X connect 8 0 6 0;
+#X restore 22 308 pd audio-output;
+#X obj 25 284 hsl 128 15 0 1 0 1 empty empty Volume-général -2 -8
+0 10 -262144 -1 -1 9100 1;
+#X obj 27 414 bng 15 250 50 0 empty empty Reset 17 7 0 10 -262144 -1
+-1;
+#N canvas 1 85 770 440 reset 0;
+#X obj 43 85 inlet;
+#X msg 42 158 0;
+#X obj 42 194 s rain-off;
+#X text 38 13 Certains sons ne s'arrêtent pas tout seuls \, c'est
+le cas de la pluie. Ici vous pouvez créer des messages pour les stopper
+manuellement en un click;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X restore 27 434 pd reset;
+#X text 16 10 Vous devez modifier le contenu de [pd score] et [pd audio-objects]
+pour sonifier le film lu par le programme processing.;
+#X text 13 105 Si vous avez des problème de connexion essayez de cliquer
+successivement sur disconnect puis connect après avoir lancé la lecture
+de la vidéo dans processing;
+#X text 15 55 En lançant le video-player processing \, pure-data devrait
+automatiquement recevoir les données dans la boite de nombre ci-dessous
+("timing");
+#X text 22 363 Vous devez regarder à l'intérieur de ces 3 souspatchs
+pour plus d'informations;
+#X connect 3 0 1 0;
+#X connect 4 0 3 0;
+#X connect 5 0 3 1;
+#X connect 8 0 7 0;
+#X connect 9 0 10 0;
