@@ -1,0 +1,23 @@
+#N canvas 108 319 856 626 10;
+#X obj 145 103 osc~ 440;
+#X obj 145 298 dac~;
+#X obj 145 236 *~;
+#X obj 177 211 line~;
+#X msg 193 176 \$1 5;
+#X obj 266 113 hsl 64 8 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 185 7 key;
+#X floatatom 294 42 5 0 0 0 - - -, f 5;
+#X obj 131 63 mtof;
+#X floatatom 185 78 5 0 0 0 - - -, f 5;
+#X text 5 145 ici je peux taper un commentaire;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
+#X connect 2 0 1 1;
+#X connect 3 0 2 1;
+#X connect 4 0 3 0;
+#X connect 5 0 4 0;
+#X connect 6 0 7 0;
+#X connect 6 0 8 0;
+#X connect 8 0 9 0;
+#X connect 8 0 0 0;
