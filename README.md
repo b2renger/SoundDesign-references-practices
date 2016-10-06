@@ -21,6 +21,7 @@ jusqu'à 1h12min.
 
 #### Luigi Russolo (1913 - l'Art des bruits)
 https://www.youtube.com/watch?v=8GpN5FHO60c
+
 https://www.youtube.com/watch?v=lrfCq71EfNU&list=RDVHLmitA3o6g&index=14
 
 #### Duke Ellington (1933 - Daybreak Express)
@@ -151,6 +152,16 @@ https://www.youtube.com/watch?v=DRk9Wqjitk8
 ### Pratique : 
 
 Projet.
+
+
+##Courts d'animation Disney
+Walt Disney c'est beaucoup intéressé au rapport image / son. Le long métrage Fantasia ainsi que de nombreux courts sont en réalité des mises en image, mouvement d'oeuvre musicales classiques ou jazz. Certains font aussi de la pédagogie musicale :
+
+- en 1953 : "Toot, Whistle, Plunk and Boom" nous apprend d'où proviennent nos instruments de musique modernes.
+https://www.youtube.com/watch?v=8iVf0pPHvjc
+
+- en 1959 : "Donald in Mathmagic land" nous explique comment nous en sommes arrivés à la notion de gammes que nous utilisont encore actuellement.
+https://youtu.be/AJgkaU08VvY?t=2m39s
 
 
 
