@@ -15,13 +15,11 @@ Pour une prise en main de Pure-Data en complète autonomie il est plutôt consei
 ### Ecoutes :
 
 #### Richard Wagner - (1876 - Der Ring des Niebelungen) 
-
 https://youtu.be/CUFWNKFajjA?t=1h10m40s
 
 jusqu'à 1h12min.
 
 #### Luigi Russolo (1913 - l'Art des bruits)
-
 https://www.youtube.com/watch?v=8GpN5FHO60c
 https://www.youtube.com/watch?v=lrfCq71EfNU&list=RDVHLmitA3o6g&index=14
 
@@ -30,6 +28,10 @@ https://www.youtube.com/watch?v=TX3UBxF6LIA
 
 #### Pierre Schaeffer - (1948 - Etude aux chemins de fer)
 https://www.youtube.com/watch?v=N9pOq8u6-bA&index=6&list=RDVHLmitA3o6g
+
+#### John Cage - (1952 - 4'33)
+https://www.youtube.com/watch?v=JTEFKFiXSx4
+
 
 ### Théorie : 
 
@@ -59,10 +61,20 @@ Pour aller plus loin, documentaire (52min) : The Art of Sounds de Eric Darmont e
 #### Jean-Claude Risset - (1968 - Suite pour ordinateur Little Boy)
 https://www.youtube.com/watch?v=8C7I8jjMutk
 
-*1969 fondation de l'IRCAM, par Pierre Boulez.*
+*1969 fondation de l'IRCAM, par Pierre Boulez. L'IRCAM est l'institut de recherche et de coordination acoustique et musicale, qui a permit et permet encore à des scientifiques et des compositeurs de travailler ensemble (pour faire simple).*
+
+#### Terry Riley - (1969 - A Rainbow in curved air)
+https://www.youtube.com/watch?v=hy3W-3HPMWg
+
+#### Philip Glass - (1969 - Music in similar motion)
+https://www.youtube.com/watch?v=lfNdtEPi79M
 
 #### Luc Ferrari - (1970 - Presque rien n 1)
 https://www.youtube.com/watch?v=aKq-LRYv1Q4
+
+#### Philip Glass - (1975 - Einstein on the beach)
+https://www.youtube.com/watch?v=WmX_GgozpQs
+
 
 ### Théorie : 
 
@@ -111,6 +123,9 @@ Processing : OSCP5
 #### Konji Kondo (1985 - Super Mario Bros)
 https://www.youtube.com/watch?v=ia8bhFoqkVE
 
+#### Steve Reich (1995 - City Life)
+https://www.youtube.com/watch?v=BYca8EJlz0g
+
 #### Riojy Ikeda (2005 - Dataplex)
 https://www.youtube.com/watch?v=F5hhFMSAuf4
 http://www.ryojiikeda.com/project/supersymmetry/
@@ -157,7 +172,7 @@ Votre code pure-data devra être correctement **documenté** (cela signifie qu'i
 - au moins un effet sonore avec des paramètres qui évoluent au cours du temps.
 - le chargement et la lecture d'au moins un fichier audio au format wav.
 
-Le livrable "code" est un patch pure-data, ainsi que les sons et abstractions nécessaires à son éxécution.
+Le livrable "code" est un patch pure-data, ainsi que les sons et abstractions nécessaires à son éxécution. La base de code nécessaire au démarrage est disponnible dans le dossier projet : il est nécessaire d'installer les librairies OSCP5 et Video pour processing.
 
 Les éléments techniques valent deux points chacun, un patch correctement documenté vaut un point, et un patch correctement ordonné vaut aussi un point : le code pure-data est donc évalué sur dix points. L'analyse du film est évaluée sur six points. Les quatre derniers points sont attribués sur la cohérence du rendu final (notament à travers le mixage des sons entre-eux).
 
