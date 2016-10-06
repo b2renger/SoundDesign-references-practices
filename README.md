@@ -1,5 +1,5 @@
 # SoundDesign-references-practices
-This repo is a french introduction to pure-data programming langage. It emphasis on linking historical references to practical learning pure-data learning. It takes about 20 hours of practice and taught at 'l'Ecole de Design Nantes Atlantique'.
+This repo is a french introduction to pure-data programming langage. It emphasis on linking historical references to practical learning pure-data learning. It takes about 15 hours of practice and it is taught at 'l'Ecole de Design Nantes Atlantique'.
 
 Ce repo regroupe les supports de cours relatif à l'enseignement "Sound Design pratique et références". Il ne se veut pas exhaustif, ni ne représente une approche musicologique relevant de la vérité. Il s'agit plutôt d'une mise en lien de pratiques historiques de design sonore avec des exemples pratiques d'implémentations dans le langage Pure-Data en vue d'une initiation.
 
