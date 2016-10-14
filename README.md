@@ -160,7 +160,7 @@ Walt Disney c'est beaucoup intéressé au rapport image / son. Le long métrage 
 - en 1953 : "Toot, Whistle, Plunk and Boom" nous apprend d'où proviennent nos instruments de musique modernes.
 https://www.youtube.com/watch?v=8iVf0pPHvjc
 
-- en 1959 : "Donald in Mathmagic land" nous explique comment nous en sommes arrivés à la notion de gammes que nous utilisont encore actuellement.
+- en 1959 : "Donald in Mathmagic land" nous explique comment nous en sommes arrivés à la notion de gammes que nous utilisons encore actuellement.
 https://youtu.be/AJgkaU08VvY?t=2m39s
 
 
