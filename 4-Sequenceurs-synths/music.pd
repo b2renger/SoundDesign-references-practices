@@ -1,5 +1,4 @@
-#N canvas 1 81 1380 821 10;
-#X msg 374 150 60 0 0 0 72 0 65 0;
+#N canvas 1 89 1265 821 10;
 #X obj 31 4 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
 ;
 #X obj 31 28 metro 500;
@@ -7,13 +6,12 @@
 #X obj 61 58 + 1;
 #X obj 31 143 mod 8;
 #X obj 34 631 rj/u_makepoly 5 1 s_chip \$0-inst;
-#X obj 351 749 throw~ center;
 #X obj 31 292 select 0;
 #X obj 153 552 nbx 3 20 0 256 0 0 empty empty empty 0 -8 0 16 -260097
--262144 -1 10 256;
+-262144 -1 9 256;
 #X obj 153 536 hradio 8 1 0 15 empty empty empty 0 -8 0 10 -262144
--1 -1 10;
-#N canvas 1 81 1086 675 chip_presets 0;
+-1 -1 9;
+#N canvas 1 85 1086 675 chip_presets 0;
 #X obj 91 26 inlet;
 #X obj 151 615 outlet name;
 #X obj 151 590 symbol;
@@ -170,7 +168,7 @@ env3s 1 \, env3d 1 \, env3a 0.023937 \, env2r 0.023622 \, env2s 1 \,
 env2d 1 \, env2a 0 \, env1r 0.0331496 \, env1s 0 \, env1d 0.0401575
 \, env1a 0 \,;
 #X obj 91 52 sel 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14;
-#X msg 162 259 name fatbass \, mod3d 0 \, mod3c 0 \, mod3b 0.34685
+#X msg 171 403 name fatbass \, mod3d 0 \, mod3c 0 \, mod3b 0.34685
 \, mod3a 0 \, mod2d 0 \, mod2c 0 \, mod2b 0 \, mod2a 0 \, mod1d 0 \,
 mod1c 0.0629921 \, mod1b 0.732283 \, mod1a 0.76378 \, osc3d 0 \, osc3c
 0 \, osc3b 0.692913 \, osc3a 0.606299 \, osc2d 0.283465 \, osc2c 0.566929
@@ -217,7 +215,6 @@ mod1c 0.0629921 \, mod1b 0.732283 \, mod1a 0.76378 \, osc3d 0 \, osc3c
 #X restore 153 577 pd chip_presets;
 #X symbolatom 153 602 10 0 0 0 - - -, f 10;
 #X obj 34 472 pack f f;
-#X obj 34 444 makenote 127 1000;
 #X obj 825 120 mod 8;
 #X obj 825 336 select 0;
 #X obj 826 471 pack f f;
@@ -233,7 +230,7 @@ mod1c 0.0629921 \, mod1b 0.732283 \, mod1a 0.76378 \, osc3d 0 \, osc3c
 #X text 90 56 on compte de 1 en 1;
 #X text 40 110 on fait boucler le compteur entre 0 et 7;
 #X text 39 124 pour simuler une mesure à 8 temps;
-#X text 380 203;
+#X text 380 203 comment;
 #X text 386 189 on fixe un motif rythmique et harmonique;
 #X text 383 205 en utilisant le formalisme Midi;
 #X text 384 221 0 = aucune note;
@@ -251,7 +248,7 @@ mod1c 0.0629921 \, mod1b 0.732283 \, mod1a 0.76378 \, osc3d 0 \, osc3c
 #X text 226 493 Charger un preset spécifique au démarrage;
 #X symbolatom 945 420 20 0 0 0 - - -, f 20;
 #X obj 945 368 nbx 3 20 0 256 0 0 empty empty empty 0 -8 0 16 -260097
--262144 -1 4 256;
+-262144 -1 0 256;
 #N canvas 0 50 1108 693 ejun_presets 0;
 #X obj 91 26 inlet;
 #X obj 83 653 outlet name;
@@ -389,7 +386,7 @@ osc1b 0.80315 \, osc1a 0.913386 \, env3r 0.110236 \, env3s 0.0314961
 #X connect 17 0 4 0;
 #X restore 945 397 pd ejun_presets;
 #X obj 945 343 hradio 15 1 0 10 empty empty empty 0 -8 0 10 -262144
--1 -1 4;
+-1 -1 0;
 #X obj 826 496 rj/u_makepoly 5 1 s_ejun \$0-inst;
 #X msg 945 317 4;
 #X obj 31 179 rj/g_pattern32 pattern1 128;
@@ -413,39 +410,49 @@ note. Si ce paramètre vaut 0 le nouvelle note sera ignorée.;
 #X text 845 610 - le nom du synthétiseur monophonique à transformer
 en synthétiseur polyphonique \, s_chip \, s_cwc \, s_czz \, s_ejun
 \, s_hstr \, s_noiz \, s_spad;
-#X connect 0 0 51 1;
+#X obj 351 749 dac~;
+#X floatatom 57 88 5 0 0 0 - - -, f 5;
+#X floatatom 88 151 5 0 0 0 - - -, f 5;
+#X msg 374 150 60 0 0 0 72 0 60 0;
+#X obj 34 444 makenote 127 2500;
+#X obj 565 407 rj/s_chip;
+#X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
-#X connect 3 0 4 0;
-#X connect 3 0 5 0;
-#X connect 3 0 15 0;
-#X connect 4 0 3 1;
-#X connect 5 0 51 0;
-#X connect 6 0 7 0;
-#X connect 8 1 14 0;
-#X connect 9 0 11 0;
-#X connect 10 0 9 0;
-#X connect 11 0 12 0;
-#X connect 11 1 6 1;
-#X connect 13 0 6 0;
-#X connect 14 0 13 0;
-#X connect 14 1 13 1;
-#X connect 15 0 52 0;
-#X connect 16 1 19 0;
-#X connect 17 0 49 0;
-#X connect 18 0 52 1;
-#X connect 19 0 17 0;
-#X connect 19 1 17 1;
-#X connect 20 0 21 0;
-#X connect 21 0 10 0;
-#X connect 22 0 50 0;
-#X connect 23 0 18 0;
-#X connect 24 0 0 0;
-#X connect 46 0 47 0;
+#X connect 2 0 4 0;
+#X connect 2 0 12 0;
+#X connect 2 0 61 0;
+#X connect 3 0 2 1;
+#X connect 4 0 48 0;
+#X connect 4 0 62 0;
+#X connect 5 0 60 0;
+#X connect 5 0 60 1;
+#X connect 6 1 64 0;
+#X connect 7 0 9 0;
+#X connect 8 0 7 0;
+#X connect 9 0 10 0;
+#X connect 9 1 5 1;
+#X connect 11 0 5 0;
+#X connect 12 0 49 0;
+#X connect 13 1 16 0;
+#X connect 14 0 46 0;
+#X connect 15 0 49 1;
+#X connect 16 0 14 0;
+#X connect 16 1 14 1;
+#X connect 17 0 18 0;
+#X connect 18 0 8 0;
+#X connect 19 0 47 0;
+#X connect 20 0 15 0;
+#X connect 21 0 63 0;
+#X connect 43 0 44 0;
+#X connect 44 0 42 0;
+#X connect 44 1 46 1;
+#X connect 45 0 43 0;
+#X connect 46 0 60 0;
+#X connect 46 0 60 1;
 #X connect 47 0 45 0;
-#X connect 47 1 49 1;
-#X connect 48 0 46 0;
-#X connect 49 0 7 0;
-#X connect 50 0 48 0;
-#X connect 51 0 8 0;
-#X connect 52 0 16 0;
+#X connect 48 0 6 0;
+#X connect 49 0 13 0;
+#X connect 63 0 48 1;
+#X connect 64 0 11 0;
+#X connect 64 1 11 1;

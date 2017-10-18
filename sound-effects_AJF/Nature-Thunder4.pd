@@ -1,7 +1,7 @@
-#N canvas 423 76 601 372 10;
+#N canvas 441 81 601 372 10;
 #X declare -path z_thunder_abs;
 #X obj 248 113 *~ 0.9;
-#N canvas 152 29 188 323 afterimage 0;
+#N canvas 152 50 188 323 afterimage 0;
 #X obj 1 114 noise~;
 #X obj 16 176 noise~;
 #X obj 1 199 *~;
@@ -221,6 +221,7 @@
 #X obj 129 114 *~ 0.3;
 #X obj 350 111 *~ 0.5;
 #X obj 289 14 declare -path z_thunder_abs;
+#X text 38 10 click me;
 #X connect 0 0 24 0;
 #X connect 1 0 0 0;
 #X connect 2 0 12 0;

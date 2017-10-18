@@ -1,4 +1,4 @@
-#N canvas 985 347 888 636 10;
+#N canvas 983 351 888 636 10;
 #X obj 692 502 openpanel;
 #X obj 691 577 table play-samp;
 #X msg 692 523 read -resize \$1 play-samp;
