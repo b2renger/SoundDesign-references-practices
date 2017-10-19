@@ -39,54 +39,54 @@ s
 
 ## Références artistiques
 
-- [1876 - Richard Wagner - Der Ring des Niebelungen](!https://youtu.be/CUFWNKFajjA?t=1h10m40s) (de 1:10:40s à 1:12:00 environs)
+- [1876 - Richard Wagner - Der Ring des Niebelungen](https://youtu.be/CUFWNKFajjA?t=1h10m40s) (de 1:10:40s à 1:12:00 environs)
 
-- [1913 - Luigi Russolo  - l'Art des bruits](!https://www.youtube.com/watch?v=8GpN5FHO60c) - 
-    [Luigi Russolo sur Wikipédia](!https://fr.wikipedia.org/wiki/Luigi_Russolo)
+- [1913 - Luigi Russolo  - l'Art des bruits](https://www.youtube.com/watch?v=8GpN5FHO60c) - 
+    [Luigi Russolo sur Wikipédia](https://fr.wikipedia.org/wiki/Luigi_Russolo)
 
-- [1933 - Duke Ellington - Daybreak Express](!https://www.youtube.com/watch?v=TX3UBxF6LIA)
+- [1933 - Duke Ellington - Daybreak Express](https://www.youtube.com/watch?v=TX3UBxF6LIA)
 
-- [1948 - Pierre Schaeffer - Etude aux chemins de fer](!https://www.youtube.com/watch?v=N9pOq8u6-bA&index=6&list=RDVHLmitA3o6g)
+- [1948 - Pierre Schaeffer - Etude aux chemins de fer](https://www.youtube.com/watch?v=N9pOq8u6-bA&index=6&list=RDVHLmitA3o6g)
 
-- [1952 - John Cage - 4'33](!https://www.youtube.com/watch?v=JTEFKFiXSx4)
+- [1952 - John Cage - 4'33](https://www.youtube.com/watch?v=JTEFKFiXSx4)
 
 
 ### Débuts de la synthèse sonore (1954-1969)
 
-- [1954 - Karlheinz Stockhausen - "Studie II" Elektronishe Musik](!https://www.youtube.com/watch?v=_qi4hgT_d0o)
+- [1954 - Karlheinz Stockhausen - "Studie II" Elektronishe Musik](https://www.youtube.com/watch?v=_qi4hgT_d0o)
 
 - 1958 - *création du GRM par Pierre Schaeffer. y passeront : Luciano Berio,  François Bayle, Jean-Claude Risset, Denis Smalley*
 
-- [1967 - Pierre Henry - Psyche rock](!https://www.youtube.com/watch?v=AOqfWj0HqNE) (cf : commentaire d'écoute dans documents/Auditions/    )
-et pour aller plus loin, documentaire (52min) : [The Art of Sounds](!https://www.youtube.com/watch?v=Zsb1w-3iFa8) de Eric Darmont et Franck Mallet. 
+- [1967 - Pierre Henry - Psyche rock](https://www.youtube.com/watch?v=AOqfWj0HqNE) (cf : commentaire d'écoute dans documents/Auditions/    )
+et pour aller plus loin, documentaire (52min) : [The Art of Sounds](https://www.youtube.com/watch?v=Zsb1w-3iFa8) de Eric Darmont et Franck Mallet. 
 
-- [1968 - Jean-Claude Risset - Suite pour ordinateur Little Boy](!https://www.youtube.com/watch?v=8C7I8jjMutk)
+- [1968 - Jean-Claude Risset - Suite pour ordinateur Little Boy](https://www.youtube.com/watch?v=8C7I8jjMutk)
 
 - 1969 - *fondation de l'IRCAM, par Pierre Boulez. L'IRCAM est l'institut de recherche et de coordination acoustique et musicale, qui a permis et permet encore à des scientifiques et des compositeurs de travailler ensemble.*
 
-- [1969 - Terry Riley - A Rainbow in curved air](!https://www.youtube.com/watch?v=hy3W-3HPMWg)
+- [1969 - Terry Riley - A Rainbow in curved air](https://www.youtube.com/watch?v=hy3W-3HPMWg)
 
-- [1969 - Philip Glass - Music in similar motion](!https://www.youtube.com/watch?v=lfNdtEPi79M)
+- [1969 - Philip Glass - Music in similar motion](https://www.youtube.com/watch?v=lfNdtEPi79M)
 
-- [1975 - Philip Glass - Einstein on the beach](!https://www.youtube.com/watch?v=WmX_GgozpQs)
+- [1975 - Philip Glass - Einstein on the beach](https://www.youtube.com/watch?v=WmX_GgozpQs)
 
 
 
 ### Cinéma, recherche (1970-1985)
 
-- [1973 - Pink Floyd - Money](!https://www.youtube.com/watch?v=-0kcet4aPpQ)
+- [1973 - Pink Floyd - Money](https://www.youtube.com/watch?v=-0kcet4aPpQ)
 
-- [1974 - Kraftwerk - Autobahn](!https://www.youtube.com/watch?v=e11h73WhqK4)
+- [1974 - Kraftwerk - Autobahn](https://www.youtube.com/watch?v=e11h73WhqK4)
 
-- [1975 - Gérard Grisey - Partiels](!https://www.youtube.com/watch?v=jqzukP_BtW8)
+- [1975 - Gérard Grisey - Partiels](https://www.youtube.com/watch?v=jqzukP_BtW8)
 
-- [1978 - Kraftwerk - The Robots](!https://www.youtube.com/watch?v=3HiRjblCypw)
+- [1978 - Kraftwerk - The Robots](https://www.youtube.com/watch?v=3HiRjblCypw)
 
-- [1977 - Ben Burt - Star Wars - bande annonce originale](!https://www.youtube.com/watch?v=vP_1T4ilm8M)
+- [1977 - Ben Burt - Star Wars - bande annonce originale](https://www.youtube.com/watch?v=vP_1T4ilm8M)
 
-- [1979 - Walter Murch - Apocalypse Now](!https://www.youtube.com/watch?v=e5L617dEXlE)
+- [1979 - Walter Murch - Apocalypse Now](https://www.youtube.com/watch?v=e5L617dEXlE)
 
-- [Le bruitage et les techniques de foley](!https://www.youtube.com/playlist?list=PLenSg5mxivedEDbbW1snBgaozvRgeKoTp) - et [BuzzBox de Nathan Smith](!https://www.youtube.com/watch?v=4C_lPvrfP00)
+- [Le bruitage et les techniques de foley](https://www.youtube.com/playlist?list=PLenSg5mxivedEDbbW1snBgaozvRgeKoTp) - et [BuzzBox de Nathan Smith](https://www.youtube.com/watch?v=4C_lPvrfP00)
 
 
 ### Quelques dates
@@ -94,12 +94,12 @@ et pour aller plus loin, documentaire (52min) : [The Art of Sounds](!https://www
 De 1857 à 1897 nous sommes dans l'**enregistrement mécanique** du son.
     - Le phonautographe (Edouard Léon Scott de Martinville)
     - Le phonographe (Thomas Edison) 
-[page wikipédia sur le phonographe](!https://fr.wikipedia.org/wiki/Phonographe)
+[page wikipédia sur le phonographe](https://fr.wikipedia.org/wiki/Phonographe)
 
 Fin 19ème début 20 commence l'**enregistrement électromagnétique** qui correspond au transcodage du son en signal électrique
     - les nagras apparaissent dans les années 50 - c'est le début des enregistreurs transportables.
     - les dictaphones et cassettes audio font leur apparition au début des années 60.
-[page wikipédia sur l'enregistreur nagra](!https://fr.wikipedia.org/wiki/Nagra)
+[page wikipédia sur l'enregistreur nagra](https://fr.wikipedia.org/wiki/Nagra)
 
 A partir du début des années 80 le CD fait son apparition. A la fin des années 90, il est largement utilisé, les graveurs de CD aussi, ce qui entrainera le boom des home studio.
 
@@ -118,23 +118,23 @@ La plupart des techniques de création sonore découvertes par Pierre Henry et P
 
 ### Design sonore, design musical et interactions (1985-...)
 
-- [1985 - Konji Kondo - Super Mario Bros](!https://www.youtube.com/watch?v=ia8bhFoqkVE)
+- [1985 - Konji Kondo - Super Mario Bros](https://www.youtube.com/watch?v=ia8bhFoqkVE)
 
-- [1995 - Steve Reich - City Life](!https://www.youtube.com/watch?v=BYca8EJlz0g)
+- [1995 - Steve Reich - City Life](https://www.youtube.com/watch?v=BYca8EJlz0g)
 
-- [2005 - Riojy Ikeda - Dataplex](!https://www.youtube.com/watch?v=F5hhFMSAuf4) - et [Supersymmetry](!http://www.ryojiikeda.com/project/supersymmetry/)
+- [2005 - Riojy Ikeda - Dataplex](https://www.youtube.com/watch?v=F5hhFMSAuf4) - et [Supersymmetry](http://www.ryojiikeda.com/project/supersymmetry/)
 
-- [2010 - Daito Manabe - Pub Nike](!https://www.youtube.com/watch?v=uS1exujG3cY)
+- [2010 - Daito Manabe - Pub Nike](https://www.youtube.com/watch?v=uS1exujG3cY)
 
 ### Quelques projets interactifs plus récents
 
-- [Noisy Jelly](!https://vimeo.com/38796545)
+- [Noisy Jelly](https://vimeo.com/38796545)
 
-- [Synchrony](!https://vimeo.com/118888577)
+- [Synchrony](https://vimeo.com/118888577)
 
-- [Liquid Midi](!https://vimeo.com/130185068)	
+- [Liquid Midi](https://vimeo.com/130185068)	
 
-- [Dodecaudion](!https://vimeo.com/28651568)
+- [Dodecaudion](https://vimeo.com/28651568)
 
-- [Hibou](!https://vimeo.com/67895730)
+- [Hibou](https://vimeo.com/67895730)
 
