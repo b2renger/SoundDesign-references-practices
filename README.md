@@ -11,11 +11,11 @@ Pour une prise en main de Pure-Data en complète autonomie il est plutôt consei
 
 ## Acoustique et Perception auditive
 
-- [Kahn Academy - the science and mathematics of sound](!https://www.khanacademy.org/math/math-for-fun-and-glory/vi-hart/singing/v/what-is-up-with-noises-the-science-and-mathematics-of-sound-frequency-and-pitch)
+- [Kahn Academy - the science and mathematics of sound](https://www.khanacademy.org/math/math-for-fun-and-glory/vi-hart/singing/v/what-is-up-with-noises-the-science-and-mathematics-of-sound-frequency-and-pitch)
 
-- [Comment fonctionnent nos oreilles ?](!https://jig.space/view?jig=1o7LbAKd) 
+- [Comment fonctionnent nos oreilles ?](https://jig.space/view?jig=1o7LbAKd) 
 
-- [Comment fonctionne un haut parleur ?](!https://jig.space/view?jig=8pO80mOY)  
+- [Comment fonctionne un haut parleur ?](https://jig.space/view?jig=8pO80mOY)  
 
 
 ### Les sciences du son
@@ -117,8 +117,6 @@ La plupart des techniques de création sonore découvertes par Pierre Henry et P
 
 
 ### Design sonore, design musical et interactions (1985-...)
-
-
 
 - [1985 - Konji Kondo - Super Mario Bros](!https://www.youtube.com/watch?v=ia8bhFoqkVE)
 
