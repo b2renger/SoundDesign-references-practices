@@ -9,182 +9,134 @@ Les exemples sont destinés à être utilisés avec Pure-Data vanilla : http://m
 
 Pour une prise en main de Pure-Data en complète autonomie il est plutôt conseillé de se tourner vers ce cours : https://github.com/b2renger/Introduction_Pure_Data
 
+## Acoustique et Perception auditive
 
-## Séance 1 : Des bruits aux sons concrets (1876-1956)
+- [Kahn Academy - the science and mathematics of sound](!https://www.khanacademy.org/math/math-for-fun-and-glory/vi-hart/singing/v/what-is-up-with-noises-the-science-and-mathematics-of-sound-frequency-and-pitch)
 
-### Ecoutes :
+- [Comment fonctionnent nos oreilles ?](!https://jig.space/view?jig=1o7LbAKd) 
 
-#### Richard Wagner - (1876 - Der Ring des Niebelungen) 
-https://youtu.be/CUFWNKFajjA?t=1h10m40s
+- [Comment fonctionne un haut parleur ?](!https://jig.space/view?jig=8pO80mOY)  
 
-jusqu'à 1h12min.
 
-#### Luigi Russolo (1913 - l'Art des bruits)
-https://www.youtube.com/watch?v=8GpN5FHO60c
+### Les sciences du son
+![Les sciences du son](documents/Audition/A_Audition_01_Les_sciences_du_son.png)
 
-https://www.youtube.com/watch?v=lrfCq71EfNU&list=RDVHLmitA3o6g&index=14
+### Les processus cognitifs de la perception sonore
+![Les processus cognitifs](documents/Audition/A_Audition_03_Les_processus_cognitifs.png)
 
-#### Duke Ellington (1933 - Daybreak Express)
-https://www.youtube.com/watch?v=TX3UBxF6LIA
+### Les caractéristiques du son
 
-#### Pierre Schaeffer - (1948 - Etude aux chemins de fer)
-https://www.youtube.com/watch?v=N9pOq8u6-bA&index=6&list=RDVHLmitA3o6g
+![amplitude](documents/Audition/A_Audition_04_Caractéristiques_du_son_01.png)
+s
+![fréquence](documents/Audition/A_Audition_05_Caractéristiques_du_son_02.png)
 
-#### John Cage - (1952 - 4'33)
-https://www.youtube.com/watch?v=JTEFKFiXSx4
+#### Les courbes de Fletcher
+![Les courbes isosoniques](documents/Audition/A_Audition_06_Fletcher_munson.jpg)
 
+#### L'audio-numérique
+![échantillonage](documents/AudioNumérique/A_Traitement_Numérique_01_Fréquence_echantillonage.png)
+![bitrate](documents/AudioNumérique/A_Traitement_Numérique_02_Resolution.png)
 
-### Théorie : 
+## Références artistiques
 
-contenu du dossier Audition.
+- [1876 - Richard Wagner - Der Ring des Niebelungen](!https://youtu.be/CUFWNKFajjA?t=1h10m40s) (de 1:10:40s à 1:12:00 environs)
 
-### Pratique : 
+- [1913 - Luigi Russolo  - l'Art des bruits](!https://www.youtube.com/watch?v=8GpN5FHO60c) - 
+    [Luigi Russolo sur Wikipédia](!https://fr.wikipedia.org/wiki/Luigi_Russolo)
 
-Pure-Data hello world : rjdj => [sfplay~] lecture avec vitesse variable, index de lecture manipulable. Utilisation de filtres et d'effets issus de rjdj.
+- [1933 - Duke Ellington - Daybreak Express](!https://www.youtube.com/watch?v=TX3UBxF6LIA)
 
+- [1948 - Pierre Schaeffer - Etude aux chemins de fer](!https://www.youtube.com/watch?v=N9pOq8u6-bA&index=6&list=RDVHLmitA3o6g)
 
-## Séance 2 : Débuts de la synthèse sonore (1954-1969)
+- [1952 - John Cage - 4'33](!https://www.youtube.com/watch?v=JTEFKFiXSx4)
 
-### Ecoutes :
 
-#### Karlheinz Stockhausen - (1954 - "Studie II" Elektronishe Musik)
-https://www.youtube.com/watch?v=hXqvBvOXV3U&list=RDVHLmitA3o6g&index=17
-https://www.youtube.com/watch?v=_qi4hgT_d0o
+### Débuts de la synthèse sonore (1954-1969)
 
-*1958 création du GRM par Pierre Schaeffer. y passeront : Luciano Berio,  François Bayle, Jean-Claude Risset, Denis Smalley*
+- [1954 - Karlheinz Stockhausen - "Studie II" Elektronishe Musik](!https://www.youtube.com/watch?v=_qi4hgT_d0o)
 
-#### Pierre Henry - (1967 - Psyche rock)
-https://www.youtube.com/watch?v=AOqfWj0HqNE
-(cf : commentaire d'écoute)
+- 1958 - *création du GRM par Pierre Schaeffer. y passeront : Luciano Berio,  François Bayle, Jean-Claude Risset, Denis Smalley*
 
-Pour aller plus loin, documentaire (52min) : The Art of Sounds de Eric Darmont et Franck Mallet : https://www.youtube.com/watch?v=Zsb1w-3iFa8
+- [1967 - Pierre Henry - Psyche rock](!https://www.youtube.com/watch?v=AOqfWj0HqNE) (cf : commentaire d'écoute dans documents/Auditions/    )
+et pour aller plus loin, documentaire (52min) : [The Art of Sounds](!https://www.youtube.com/watch?v=Zsb1w-3iFa8) de Eric Darmont et Franck Mallet. 
 
-#### Jean-Claude Risset - (1968 - Suite pour ordinateur Little Boy)
-https://www.youtube.com/watch?v=8C7I8jjMutk
+- [1968 - Jean-Claude Risset - Suite pour ordinateur Little Boy](!https://www.youtube.com/watch?v=8C7I8jjMutk)
 
-*1969 fondation de l'IRCAM, par Pierre Boulez. L'IRCAM est l'institut de recherche et de coordination acoustique et musicale, qui a permit et permet encore à des scientifiques et des compositeurs de travailler ensemble (pour faire simple).*
+- 1969 - *fondation de l'IRCAM, par Pierre Boulez. L'IRCAM est l'institut de recherche et de coordination acoustique et musicale, qui a permis et permet encore à des scientifiques et des compositeurs de travailler ensemble.*
 
-#### Terry Riley - (1969 - A Rainbow in curved air)
-https://www.youtube.com/watch?v=hy3W-3HPMWg
+- [1969 - Terry Riley - A Rainbow in curved air](!https://www.youtube.com/watch?v=hy3W-3HPMWg)
 
-#### Philip Glass - (1969 - Music in similar motion)
-https://www.youtube.com/watch?v=lfNdtEPi79M
+- [1969 - Philip Glass - Music in similar motion](!https://www.youtube.com/watch?v=lfNdtEPi79M)
 
-#### Luc Ferrari - (1970 - Presque rien n 1)
-https://www.youtube.com/watch?v=aKq-LRYv1Q4
+- [1975 - Philip Glass - Einstein on the beach](!https://www.youtube.com/watch?v=WmX_GgozpQs)
 
-#### Philip Glass - (1975 - Einstein on the beach)
-https://www.youtube.com/watch?v=WmX_GgozpQs
 
 
-### Théorie : 
+### Cinéma, recherche (1970-1985)
 
-contenu du dossier Audionumérique
+- [1973 - Pink Floyd - Money](!https://www.youtube.com/watch?v=-0kcet4aPpQ)
 
-### Pratique : 
+- [1974 - Kraftwerk - Autobahn](!https://www.youtube.com/watch?v=e11h73WhqK4)
 
-[osc~], [phasor~], [key], [mtof],  enveloppes, synthèse sonore additive, sous-patchs, abstractions => synthétiseurs polyphoniques de rjdj.
+- [1975 - Gérard Grisey - Partiels](!https://www.youtube.com/watch?v=jqzukP_BtW8)
 
+- [1978 - Kraftwerk - The Robots](!https://www.youtube.com/watch?v=3HiRjblCypw)
 
-## Séance 3 : Evolution des techniques, cinéma, recherche (1970-1985)
+- [1977 - Ben Burt - Star Wars - bande annonce originale](!https://www.youtube.com/watch?v=vP_1T4ilm8M)
 
-### Ecoutes :
+- [1979 - Walter Murch - Apocalypse Now](!https://www.youtube.com/watch?v=e5L617dEXlE)
 
-#### Kraftwerk (1974 - Autobahn)
-https://www.youtube.com/watch?v=e11h73WhqK4
+- [Le bruitage et les techniques de foley](!https://www.youtube.com/playlist?list=PLenSg5mxivedEDbbW1snBgaozvRgeKoTp) - et [BuzzBox de Nathan Smith](!https://www.youtube.com/watch?v=4C_lPvrfP00)
 
-#### Gérard Grisey -(1975 - Partiels)
-https://www.youtube.com/watch?v=jqzukP_BtW8
 
-#### Kraftwerk (1978 - The Robots)
-https://www.youtube.com/watch?v=3HiRjblCypw
+### Quelques dates
 
-### Cinéma :
-Les bruiteurs et les techniques de foley : https://www.youtube.com/playlist?list=PLenSg5mxivedEDbbW1snBgaozvRgeKoTp
-Evolution des techniques (démocratisation des enregistreurs portables) cf. documents/evolution
+De 1857 à 1897 nous sommes dans l'**enregistrement mécanique** du son.
+    - Le phonautographe (Edouard Léon Scott de Martinville)
+    - Le phonographe (Thomas Edison) 
+[page wikipédia sur le phonographe](!https://fr.wikipedia.org/wiki/Phonographe)
 
-#### Ben Burt (1977 - Star Wars)
-bande annonce originale : https://www.youtube.com/watch?v=vP_1T4ilm8M
+Fin 19ème début 20 commence l'**enregistrement électromagnétique** qui correspond au transcodage du son en signal électrique
+    - les nagras apparaissent dans les années 50 - c'est le début des enregistreurs transportables.
+    - les dictaphones et cassettes audio font leur apparition au début des années 60.
+[page wikipédia sur l'enregistreur nagra](!https://fr.wikipedia.org/wiki/Nagra)
 
-#### Walter Murch (1979 - Apocalypse Now)
-https://www.youtube.com/watch?v=e5L617dEXlE
+A partir du début des années 80 le CD fait son apparition. A la fin des années 90, il est largement utilisé, les graveurs de CD aussi, ce qui entrainera le boom des home studio.
 
-### Pratique : 
+Dans les années 80 les techniques pour la musique et le traitement du son à des objectifs vidéo-ludiques apparaît. Alors que dans les années 80, les créateurs étaient limités à quelques **fichiers MIDI**, de la synthèse sonore des plus basiques et des **échantillons audio** de faible qualité; l'appartitions des cds permet de stocker plus de sons de meilleur qualité, puis l'augmentation de la puissance de calcul permet l'utilisation d'**effets** en temps réel et la **spatialisation** au début des années 2000.
 
-Les patchs de synthèse sonore procédurale d'Andy Farnell. 
-Mise en place de la base de code du projet.
-Pd : [oscparse~], [oscformat~] ...
-Processing : OSCP5
+La plupart des techniques de création sonore découvertes par Pierre Henry et Pierre Schaeffer sont encore utilisées, et de plus en plus facilitées par les évolutions techniques, parmis elles figurent :
+- le montage et le micro-montage
+- le mixage / montage de plusieurs sources
+- la modification de la vitesse de défilement : augmentation pour accélerer mais aussi l'étirement temporel et la lecture à l'envers
+- le bouclage
+- le filtrage fréquentiel
+- la réverbération artificielle
+- les échos
+- les techniques avancées de prise de son (comme la mise en mouvement du micro lors de la prise de son)
 
 
-## Séance 4 : Design sonore, design musical et interactions (1985-...)
+### Design sonore, design musical et interactions (1985-...)
 
-### Ecoutes :
 
-#### Konji Kondo (1985 - Super Mario Bros)
-https://www.youtube.com/watch?v=ia8bhFoqkVE
 
-#### Steve Reich (1995 - City Life)
-https://www.youtube.com/watch?v=BYca8EJlz0g
+- [1985 - Konji Kondo - Super Mario Bros](!https://www.youtube.com/watch?v=ia8bhFoqkVE)
 
-#### Riojy Ikeda (2005 - Dataplex)
-https://www.youtube.com/watch?v=F5hhFMSAuf4
-http://www.ryojiikeda.com/project/supersymmetry/
+- [1995 - Steve Reich - City Life](!https://www.youtube.com/watch?v=BYca8EJlz0g)
 
-#### Daito Manabe (2010 ? - Pub Nike)
-https://www.youtube.com/watch?v=uS1exujG3cY
+- [2005 - Riojy Ikeda - Dataplex](!https://www.youtube.com/watch?v=F5hhFMSAuf4) - et [Supersymmetry](!http://www.ryojiikeda.com/project/supersymmetry/)
 
-### Théorie : 
+- [2010 - Daito Manabe - Pub Nike](!https://www.youtube.com/watch?v=uS1exujG3cY)
 
-documents / jeux
+### Quelques projets interactifs plus récents
 
-### Pratique :
+- [Noisy Jelly](!https://vimeo.com/38796545)
 
-Projet.
+- [Synchrony](!https://vimeo.com/118888577)
 
+- [Liquid Midi](!https://vimeo.com/130185068)	
 
-## Séance 5 : Projet
+- [Dodecaudion](!https://vimeo.com/28651568)
 
-### Exemple :
+- [Hibou](!https://vimeo.com/67895730)
 
-https://www.youtube.com/watch?v=DRk9Wqjitk8
-
-### Pratique : 
-
-Projet.
-
-
-##Courts d'animation Disney
-Walt Disney c'est beaucoup intéressé au rapport image / son. Le long métrage Fantasia ainsi que de nombreux courts sont en réalité des mises en image, mouvement d'oeuvre musicales classiques ou jazz. Certains font aussi de la pédagogie musicale :
-
-- en 1953 : "Toot, Whistle, Plunk and Boom" nous apprend d'où proviennent nos instruments de musique modernes.
-https://www.youtube.com/watch?v=8iVf0pPHvjc
-
-- en 1959 : "Donald in Mathmagic land" nous explique comment nous en sommes arrivés à la notion de gammes que nous utilisons encore actuellement.
-https://youtu.be/AJgkaU08VvY?t=2m39s
-
-
-
-#Travail Demandé :
-
-Le but de cette initiation est de se familiariser avec Pure-Data un langage de programmation temps réel dédié au traitement du signal. Pure-Data est langage qui s'appuie sur des concepts de programmation par bloc, comme beaucoup d'outils utilisés dans le design sonore. Ce langage est très utilisé dans le domaine de la création musicale expérimentale et dans les arts numérique, mais aussi dans la recherche.
-
-Cette initiation a  pour but de vous familiariser avec les principes de la programmation visuelle par bloc, ainsi qu'à divers algorithmes de traitement du signal par le prisme de la création sonore. L'objectif sera de programmer la bande son d'un court film vidéo en utilisant pure-data.
-
-Pour cela vous devrez **analyser la naration du film** avec timestamps à l'appui : repérer les différents lieux, les noeuds de narrations, les changements de ton etc. A partir de ce découpage pour chaque partie vous devrez définir en une phrase ou un groupe de mot la **tonalité sonore** que vous voulez donner à l'extrait : dramatique, descriptive, joyeuse, onirique, contemplative ... Vous vous attacherez à définir une **ambiance sonore** de fond (qui pourra être musicale ou bruitée). Vous réaliserez une **liste** des éléments graphiques animés ou non qui peuvent amener à une sonorisation et marquerez vos choix (l'élément sera sonorisé ou non, il n'est souvent pas nécessaire de sonoriser une scène de manière trop exhaustive - il faut choisir les éléments qui sont importants pour la narration) - il est fortement recommandé de constituer un **tableau** à quatre colones pour chaque scène (timestamp, description de l'élément, sonorisé ou non, source : si fichier audio ou patch pure-data trouvé sur internet).
-
-L'évaluation comprendra deux rendus : un document au format pdf (récapitulant votre analyse du film) et un programme pure-data.
-
-D'un point de vue technique, la vidéo sera jouée dans Processing et le timestamp sera envoyé par OSC à pure-data, cette base de code sera créee en cours, lors de la séance deux ou trois.
-
-Votre code pure-data devra être correctement **documenté** (cela signifie qu'il faut utiliser des commentaires), et le code devra être ordonné. Il devra comporter les éléments techniques suivant :
-- l'utilisation de sous-patchs et abstractions.
-- au moins un patch de synthèse sonore issus de la librairie d'Andy Farnell (modifié ou non).
-- au moins un effet sonore avec des paramètres qui évoluent au cours du temps.
-- le chargement et la lecture d'au moins un fichier audio au format wav.
-
-Le livrable "code" est un patch pure-data, ainsi que les sons et abstractions nécessaires à son éxécution. La base de code nécessaire au démarrage est disponnible dans le dossier projet : il est nécessaire d'installer les librairies OSCP5 et Video pour processing.
-
-Les éléments techniques valent deux points chacun, un patch correctement documenté vaut un point, et un patch correctement ordonné vaut aussi un point : le code pure-data est donc évalué sur dix points. L'analyse du film est évaluée sur six points. Les quatre derniers points sont attribués sur la cohérence du rendu final (notament à travers le mixage des sons entre-eux).
-
-Le zip doit être nommé comme suit Nom1-Nom2_ProjetBO.zip, le patch principal doit porter le nom 'BO.pd' et le pdf doit être inclus dans le zip
