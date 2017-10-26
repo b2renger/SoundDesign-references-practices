@@ -9,6 +9,7 @@ Un second repo centralise les ressources autour de pure-data :  https://github.c
 
 
 <a name="contenu"/>
+
 ## Contenu
 
 * [Acoustique et Perception auditive](#acoustique)<br>
@@ -28,6 +29,7 @@ Un second repo centralise les ressources autour de pure-data :  https://github.c
 
 
 <a name="acoustique"/>
+
 ## Acoustique et Perception auditive
 
 - [Kahn Academy - the science and mathematics of sound](https://www.khanacademy.org/math/math-for-fun-and-glory/vi-hart/singing/v/what-is-up-with-noises-the-science-and-mathematics-of-sound-frequency-and-pitch)
