@@ -279,6 +279,7 @@ Ces problématiques seront l'objet des séances pratiques pour lesquelles nous u
 [^ home](#contenu)<br>
 
 <a name="ressources"/>
+
 ### Ressources et liens 
 
 #### Echantillons gratuits
