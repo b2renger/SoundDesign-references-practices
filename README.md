@@ -285,6 +285,7 @@ Ces problématiques seront l'objet des séances pratiques pour lesquelles nous u
 #### Echantillons gratuits
 - [musicscreen](http://www.musicscreen.be/musique-libre-de-droit-gratuite.html)
 - [freesound](http://www.freesound.org)
+- [muzopen - sur inscription](https://musopen.org/)
 
 #### Applications web 
 - [cercle des quintes - harmonie](http://randscullard.com/CircleOfFifths/)
