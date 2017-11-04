@@ -320,6 +320,7 @@ Ces problématiques seront l'objet des séances pratiques pour lesquelles nous u
 - [Audio game hub](https://play.google.com/store/apps/details?id=com.AUT.AudioGameHub)
 
 #### Divers
+- [Generative music in js](http://www.procjam.com/tutorials/music/)
 - [Historique du format MIDI](https://www.midi.org/articles/midi-history-chapter-1)
 - [Neural networks for generating music](https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0)
 - [studio de création multimédia expérimental](http://www.binaura.net)
