@@ -289,6 +289,7 @@ Ces problématiques seront l'objet des séances pratiques pour lesquelles nous u
 - [muzopen - sur inscription](https://musopen.org/)
 
 #### Applications web 
+- [How Music Works ? - Interactive lessons in music theory](https://www.lightnote.co/)
 - [cercle des quintes - harmonie](http://randscullard.com/CircleOfFifths/)
 - [learn making music by Abbleton - introduction à la pratique des musiques électroniques](https://learningmusic.ableton.com/)
 - [chrome music lab - expérimentations audio et html5](https://musiclab.chromeexperiments.com/)
