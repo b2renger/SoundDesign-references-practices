@@ -8,26 +8,29 @@ Ce premier repo regroupe les liens théoriques et différentes ressources relati
 Un second repo centralise les ressources autour de pure-data :  https://github.com/b2renger/Introduction_Pure_Data
 
 
-<a name="contenu"/>
 ## Contenu
 
-* [Acoustique et Perception auditive](#acoustique)<br>
-    * [Les sciences du son](#sciences)<br>
-    * [Les processus cognitifs](#cognition)<br>
-    * [Les caractéristiques du son](#son)<br>
-    * [Les courbes d'isosonie](#isosonie)<br>
-    * [L'audio numérique](#audionumérique)<br>
-* [Références artistiques et historiques](#artref)<br>
-    * [Création sonore - repères historiques](#artref)<br>
-    * [Evolutions technologiques - repères historiques](#evolutions)<br>
-* [Production audio : ressources](#audioprod)<br>
-    * [Bruitage + musique = sound design](#bruitage-musique)<br>
-    * [Daw = Digital Audio Workstation](#reaper)<br>
-    * [Musique générative et audio procédural](#temps-reel)<br>
-* [Ressources complémentaires et liens](#ressources)<br>
+* [Acoustique et Perception auditive](#Acoustique-et-perception-auditive)<br>
+    * [Les sciences du son](#Les-sciences-du-son)<br>
+    * [Les processus cognitifs](#Les-processus-cognitifs)<br>
+    * [Les caracteristiques du son](#Les-caracteristiques-du-son)<br>
+    * [Les courbes d'isossonie](#Les-courbes-d'isossonie)<br>
+    * [L'audio numérique](#L'audio-numerique)<br>
+* [References artistiques et historiques](#References-artistiques-et-historiques)<br>
+    * [Creation sonore](#Creation-sonore)<br>
+        * [Les-pionniers](#Les-pionniers)
+        * [Debuts de la synthese sonore 1954-1969](#Debuts-de-la-synthese-sonore-1954-1969)
+        * [Cinema / recherche 1970-1985](#Cinema-/-recherche-1970-1985)
+        * [Design sonore / design musical et interactions 1985-...](#Design-sonore-/-design-musical-et-interactions-1985-...)
+        * [Quelques projets interactifs plus recents](#Quelques-projets-interactifs-plus-recents)
+    * [Evolutions technologiques](#Evolutions-technologiques)<br>
+* [Production audio](#Production-audio)<br>
+    * [Bruitage + musique = sound design](#Bruitage-+-musique-=-sound-design)<br>
+    * [Digital Audio Workstation](#Digital-Audio-Workstation)<br>
+    * [Musique generative et audio procedural](#Musique-generative-et-audio-procedural)<br>
+* [Ressources et liens](#Ressources-et-liens)<br>
 
 
-<a name="acoustique"/>
 ## Acoustique et Perception auditive
 
 - [Kahn Academy - the science and mathematics of sound](https://www.khanacademy.org/math/math-for-fun-and-glory/vi-hart/singing/v/what-is-up-with-noises-the-science-and-mathematics-of-sound-frequency-and-pitch)
@@ -39,43 +42,47 @@ Un second repo centralise les ressources autour de pure-data :  https://github.c
 - [Comment fonctionne un haut parleur ?](https://jig.space/view?jig=8pO80mOY)  
 
 
-[^ home](#contenu)<br>
-<a name="sciences"/>
+[**home**](#Contenu)<br>
+
+
 ### Les sciences du son
 ![Les sciences du son](documents/Audition/A_Audition_01_Les_sciences_du_son.png)
 
 
-[^ home](#contenu)<br>
-<a name="cognition"/>
-### Les processus cognitifs de la perception sonore
+[**home**](#Contenu)<br>
+
+### Les processus cognitifs
 ![Les processus cognitifs](documents/Audition/A_Audition_03_Les_processus_cognitifs.png)
 
 
-[^ home](#contenu)<br>
-<a name="son"/>
-### Les caractéristiques du son
+[**home**](#Contenu)<br>
+
+### Les caracteristiques du son
 
 ![amplitude](documents/Audition/A_Audition_04_Caractéristiques_du_son_01.png)
 
 ![fréquence](documents/Audition/A_Audition_05_Caractéristiques_du_son_02.png)
 
+[**home**](#Contenu)<br>
 
-[^ home](#contenu)<br>
-<a name="isosonie"/>
-#### Les courbes de Fletcher
+#### Les courbes d'isossonie
 ![Les courbes isosoniques](documents/Audition/A_Audition_06_Fletcher_munson.jpg)
 
 
-[^ home](#contenu)<br>
-<a name="audionumérique"/>
-#### L'audio-numérique
+[**home**](#Contenu)<br>
+
+#### L'audio-numerique
 ![échantillonage](documents/AudioNumérique/A_Traitement_Numérique_01_Fréquence_echantillonage.png)
 ![bitrate](documents/AudioNumérique/A_Traitement_Numérique_02_Resolution.png)
 
+[**home**](#Contenu)<br>
 
-[^ home](#contenu)<br>
-<a name="artref"/>
-## Références artistiques
+
+## References artistiques et historiques
+
+### Creation sonore
+
+#### Les pionniers
 
 - [1876 - Richard Wagner - Der Ring des Niebelungen](https://youtu.be/CUFWNKFajjA?t=1h10m40s) (de 1:10:40s à 1:12:00 environs)
 
@@ -88,8 +95,9 @@ Un second repo centralise les ressources autour de pure-data :  https://github.c
 
 - [1952 - John Cage - 4'33](https://www.youtube.com/watch?v=JTEFKFiXSx4)
 
+[**home**](#Contenu)<br>
 
-### Débuts de la synthèse sonore (1954-1969)
+#### Debuts de la synthese sonore 1954-1969
 
 - [1954 - Karlheinz Stockhausen - "Studie II" Elektronishe Musik](https://www.youtube.com/watch?v=_qi4hgT_d0o)
 
@@ -112,9 +120,9 @@ et pour aller plus loin, documentaire (52min) : [The Art of Sounds](https://www.
 
 - [1975 - Philip Glass - Einstein on the beach](https://www.youtube.com/watch?v=WmX_GgozpQs)
 
+[**home**](#Contenu)<br>
 
-
-### Cinéma, recherche (1970-1985)
+#### Cinema / recherche 1970-1985
 
 - [1973 - Pink Floyd - Money](https://www.youtube.com/watch?v=-0kcet4aPpQ)
 
@@ -130,8 +138,9 @@ et pour aller plus loin, documentaire (52min) : [The Art of Sounds](https://www.
 
 - [Le bruitage et les techniques de foley](https://www.youtube.com/playlist?list=PLenSg5mxivedEDbbW1snBgaozvRgeKoTp) - et [BuzzBox de Nathan Smith](https://www.youtube.com/watch?v=4C_lPvrfP00)
 
+[**home**](#Contenu)<br>
 
-### Design sonore, design musical et interactions (1985-...)
+### Design sonore / design musical et interactions 1985-...
 
 - [1985 - Konji Kondo - Super Mario Bros](https://www.youtube.com/watch?v=ia8bhFoqkVE)
 
@@ -141,7 +150,9 @@ et pour aller plus loin, documentaire (52min) : [The Art of Sounds](https://www.
 
 - [2010 - Daito Manabe - Pub Nike](https://www.youtube.com/watch?v=uS1exujG3cY)
 
-### Quelques projets interactifs plus récents
+[**home**](#Contenu)<br>
+
+#### Quelques projets interactifs plus recents
 
 - [Ping Pong FM](https://vimeo.com/184253111)
 
@@ -155,9 +166,10 @@ et pour aller plus loin, documentaire (52min) : [The Art of Sounds](https://www.
 
 - [Hibou](https://vimeo.com/67895730)
 
-[^ home](#contenu)<br>
-<a name="evolutions"/>
-### Evolutions technologiques - quelques reprères
+[**home**](#Contenu)<br>
+
+
+### Evolutions technologiques
 
 De 1857 à 1897 nous sommes dans l'**enregistrement mécanique** du son.
     - Le phonautographe (Edouard Léon Scott de Martinville)
@@ -184,11 +196,12 @@ La plupart des techniques de création sonore découvertes par Pierre Henry et P
 - les techniques avancées de prise de son (comme la mise en mouvement du micro lors de la prise de son)
 
 
-[^ home](#contenu)<br>
-<a name="audioprod"/>
-## Production audio : ressources et références pratiques 
+[**home**](#Contenu)<br>
 
-### Retours sur le séminaire audiovisuel && la production audio à l'image
+
+## Production audio 
+
+### Retours sur le seminaire audiovisuel et la production audio a l'image
 
 Lors d'un travail de montage de son à l'image, il faut particulièrement faire attention au **mixage** et à l'**intelligibilité** des sons : pour les débutant le mixage est souvent un peu grossier (les nouveaux sons arrivent trop vite, et prennent trop de place dans l'espace sonore ce qui a tendance à déséquilibrer l'ensemble), un bon mixage se fait en diminuant le volume des sons périphériques à celui que l'on veut mettre en valeur (et non en augmentant le volume de celui qu'on l'on souhaite entendre !).Le recours au positionnement des sources dans l'espace stéréo permet aussi d'améliorer l'intelligibilité. Enfin il est absolument nécessaire d'utiliser des fondus ! Ces opérations techniques permettent de gagner en intelligibilité et permettent d'obtenir des ambiances avec plus de relief et de nuances.
 
@@ -204,8 +217,8 @@ Deux derniers points qui sont importants :
 
 [Pour aller un peu plus loin sur le mixage](http://productionadvice.co.uk/using-eq/)
 
-[^ home](#contenu)<br>
-<a name="bruitage-musique"/>
+[**home**](#Contenu)<br>
+
 ### Bruitage + musique = sound design 
 
 Le sound design représente l'ensemble des disciplines liées au son d'une manière directe ou indirecte :  de l'enregistrement à la diffusion en passant par toutes les étapes plus ou moins techniques de création et de production.
@@ -228,14 +241,14 @@ Certains font aussi de la vulgarisation musicale :
 - [1959 - Donald in Mathmagic land](https://youtu.be/AJgkaU08VvY?t=2m39s) nous explique comment nous en sommes arrivés à la notion de gammes que nous utilisons encore actuellement.
 
 
-[^ home](#contenu)<br>
-<a name="reaper"/>
-### Logiciels de création audionumérique
+[**home**](#Contenu)<br>
 
+### Digital Audio Workstation
 
 [Reaper](https://www.reaper.fm/download.php)
 
 #### Pourquoi reaper ?
+
 Reaper est un outil très complet de qualité professionelle. Il permet d'éditer de l'audio, de composer et de travailler l'audio à l'image. Il est proposé a des tarifs très avantageux étant donné la qualité du logiciel et est disponnible pour toutes les plateformes (une version linux est actuellement en beta)
 
 Il existe un myriade d'alternatives plus où moins couteuses et plus ou moins faciles à prendre en main : de Garage Band à ProTools. Certains sont plus orientés composition musicale ( Garage Band, Abbleton Live, Bitwig, FL Studio, Lmms ...), d'autres plus généraux (Ardour, Reaper, Cubase, ProTools, Logic ....)
@@ -260,10 +273,9 @@ et quelques vidéos supplémentaires couvrant les bases :
 - [Boucing - exporter de l'audio](https://www.youtube.com/watch?v=2EUBto9isUM&list=PLh1Qaso9T1U0B17AXNLlvmUFuF8lWX-o8&index=16)
 
 
+[**home**](#Contenu)<br>
 
-[^ home](#contenu)<br>
-<a name="temps-reel"/>
-### Musique générative et audio procédural
+### Musique generative et audio procedural
 
 Lorsque l'on parle de musique ou d'audio génératif, on parle le plus souvent de l'utilisation de code informatique pour permettre de l'interactivité entre différents éléments musicaux ou entre un humain et une production audio.
 
@@ -274,14 +286,16 @@ Certains DAW permettent de recevoir des informations d'autres logiciels via le r
 
 Ces problématiques seront l'objet des séances pratiques pour lesquelles nous utiliserons le logiciel Pure-Data, les ressources pour ces séances pratiques sont disponnibles [ici](https://github.com/b2renger/Introduction_Pure_Data)
 
-[^ home](#contenu)<br>
+[**home**](#Contenu)<br>
 
-<a name="ressources"/>
+
 ### Ressources et liens 
 
 #### Echantillons gratuits
 - [musicscreen](http://www.musicscreen.be/musique-libre-de-droit-gratuite.html)
 - [freesound](http://www.freesound.org)
+
+[**home**](#Contenu)<br>
 
 #### Applications web 
 - [cercle des quintes - harmonie](http://randscullard.com/CircleOfFifths/)
@@ -300,6 +314,8 @@ Ces problématiques seront l'objet des séances pratiques pour lesquelles nous u
 - [Ninja jam - application ninja tunes](https://play.google.com/store/apps/details?id=net.ninjatune.ninjaJamm)
 - [mes applications personnelles][https://play.google.com/store/apps/developer?id=b%C3%A9renger+recoules]
 - [liste d'application android gratuites](http://pareekattimusic.blogspot.fr/2017/06/list-of-free-android-music-apps-only.html)
+
+[**home**](#Contenu)<br>
 
 #### Jeux vidéos
 
@@ -324,5 +340,4 @@ Ces problématiques seront l'objet des séances pratiques pour lesquelles nous u
 - [ASMR](http://www.lemonde.fr/pixels/video/2017/09/12/comment-une-video-peut-elle-provoquer-un-orgasme-cerebral_5184542_4408996.html)
 - [Enhancing Mobile interactions](https://medium.com/facebook-design/how-to-enhance-mobile-interactions-with-sound-design-3c3b30e98177)
 
-[^ home](#contenu)<br>
-
+[**home**](#Contenu)<br>
