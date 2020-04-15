@@ -282,6 +282,7 @@ Lorsque l'on parle de musique ou d'audio génératif, on parle le plus souvent d
 Certains DAW permettent de recevoir des informations d'autres logiciels via le réseau (protocole OSC par exemple qui est très utilisé et que vous découvrerez dans vos cours de programation avec Processing et Pure-data)
 
 - [musique générative avec la Web audio api](https://teropa.info/generative-music-slides/#/title)
+- [les systèmes génératifs avec exemples interactifs](https://teropa.info/loop/#/title)
 - [audio procédural avec Pure-Data](http://www.mgsx.net/articles/pd/bfxr-like-with-pd/bfxr-like-with-pd.html)
 
 Ces problématiques seront l'objet des séances pratiques pour lesquelles nous utiliserons le logiciel Pure-Data, les ressources pour ces séances pratiques sont disponnibles [ici](https://github.com/b2renger/Introduction_Pure_Data)
@@ -294,10 +295,12 @@ Ces problématiques seront l'objet des séances pratiques pour lesquelles nous u
 #### Echantillons gratuits
 - [musicscreen](http://www.musicscreen.be/musique-libre-de-droit-gratuite.html)
 - [freesound](http://www.freesound.org)
+- [muzopen - sur inscription](https://musopen.org/)
 
 [**home**](#Contenu)<br>
 
 #### Applications web 
+- [How Music Works ? - Interactive lessons in music theory](https://www.lightnote.co/)
 - [cercle des quintes - harmonie](http://randscullard.com/CircleOfFifths/)
 - [learn making music by Abbleton - introduction à la pratique des musiques électroniques](https://learningmusic.ableton.com/)
 - [chrome music lab - expérimentations audio et html5](https://musiclab.chromeexperiments.com/)
@@ -332,6 +335,7 @@ Ces problématiques seront l'objet des séances pratiques pour lesquelles nous u
 - [Audio game hub](https://play.google.com/store/apps/details?id=com.AUT.AudioGameHub)
 
 #### Divers
+- [Generative music in js](http://www.procjam.com/tutorials/music/)
 - [Historique du format MIDI](https://www.midi.org/articles/midi-history-chapter-1)
 - [Neural networks for generating music](https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0)
 - [studio de création multimédia expérimental](http://www.binaura.net)
